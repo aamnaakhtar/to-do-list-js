@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: antiquewhite;
+    margin: 100px 30% 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fa-list-check {
+    margin-left: 10px;
+}
+.add-task {
+    background-color: #fff;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.add-task input {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+::placeholder {
+    color: bisque;
+}
+.fa-circle-plus {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+}
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+li{
+    padding: 5px 0;
+    position: relative;
+    font-size: 20px;
+}
+/* li:hover {
+    background-color: #fff;
+} */
+input[type=checkbox] {
+    margin: 4px;
+    vertical-align: -2px;
+    cursor: pointer;
+}
+.fa-trash-can {
+    position: absolute;
+    margin-right: 4px;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+}
+.fa-solid:hover {
+    box-sizing: border-box;
+}
